@@ -1,0 +1,99 @@
+.home {
+    background: linear-gradient(rgba(250, 59, 231, 0.8), rgba(198, 59, 250, .8)), url(../../../assets/img/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+.home .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.home .content h1 {
+    font-size: 3rem;
+    color: #fff;
+    padding: 0 1rem;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+}
+
+.home .content p {
+    font-size: 1rem;
+    color: #eee;
+    padding: 1rem 25rem;
+}
+
+.home .content button {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 5rem;
+    background: var(--pink);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+}
+
+.home .content button:hover {
+    background-color: var(--white);
+    color: var(--pink);
+}
+
+.home .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home .box-container .box {
+    height: 20rem;
+    width: 20rem;
+    background: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.home .box-container .box i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--purple);
+    background: var(--white);
+    font-size: 3rem;
+    margin: 2rem 0;
+    transition: .2s;
+}
+
+.home .box-container .box h3 {
+    font-size: 1.5rem;
+    color: var(--purple);
+    transition: .2s;
+}
+
+.home .box-container .box p {
+    font-size: 1rem;
+    padding: .7rem 2rem;
+    color: #666;
+}
+
+.home .box-container .box:hover i {
+    background: var(--pink);
+    color: var(--white);
+}
+
+.home .box-container .box:hover h3 {
+    color: var(--pink);
+}

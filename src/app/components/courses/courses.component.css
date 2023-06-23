@@ -1,0 +1,28 @@
+.courses .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.courses .container img {
+    height: 400px;
+    width: 500px;
+}
+
+.courses .container .box h1 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.courses .container .box h3 {
+    font-size: 20px;
+}
+
+.courses .container .box .items {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 2rem;
+}

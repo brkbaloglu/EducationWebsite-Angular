@@ -1,0 +1,14 @@
+<section class="courses">
+    <h1 class="heading">Our <span class="heading-mark">Courses</span></h1>
+    <div class="container" *ngFor="let item of courseitems">
+        <img src="{{item.courseImage}}" alt="">
+        <div class="box">
+            <h1>{{item.courseName}}</h1>
+            <h3>{{item.courseDescription}}</h3>
+            <div class="items">
+                <h5>Price: {{item.coursePrice | currency:"TRY"}}</h5>
+                <h5>Teacher: {{item.courseTeacher}}</h5>
+            </div>
+        </div>
+    </div>
+</section>

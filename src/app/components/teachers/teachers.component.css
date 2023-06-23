@@ -1,0 +1,19 @@
+.teachers .container .box {
+    display: flex;
+    align-items: center;
+    margin: 3rem 5rem;
+    justify-content: space-between;
+}
+
+.teachers .container img {
+    height: 500px;
+    width: 500px;
+}
+
+.teachers .container .box .text {
+    margin: 0 5rem;
+}
+
+.teachers .container .box .text h5 {
+    margin-top: 1rem;
+}

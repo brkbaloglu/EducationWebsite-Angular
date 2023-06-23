@@ -1,0 +1,16 @@
+<section class="teachers">
+    <h1 class="heading">Our <span class="heading-mark">Teachers</span></h1>
+    <div class="container" *ngFor="let item of teacheritems">
+        <div class="box">
+            <img src="{{item.teacherImage}}" alt="">
+            <div class="text">
+                <h1>Name: {{item.teacherName}}</h1>
+                <h5>Autobiography: {{item.teacherAutobiography}}</h5>
+                <h5>Phone: {{item.teacherPhone}}</h5>
+                <h5>Age: {{item.teacherAge}}</h5>
+                <h5>Email: {{item.teacherEmail}}</h5>
+                <h5>Course: {{item.teacherCourses}}</h5>
+            </div>
+        </div>
+    </div>
+</section>
